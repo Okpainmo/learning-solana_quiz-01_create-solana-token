@@ -1,0 +1,24 @@
+{
+  "name": "ts-token-solana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "tsc --noEmit && tsx watch ./src/main.ts",
+    "build": "tsc"
+  },
+  "author": "Andrew James Okpainmo",
+  "license": "None",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.13.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@solana/web3.js": "^1.92.3",
+    "undefined": "^0.1.0"
+  }
+}
